@@ -4,26 +4,26 @@ public class Manipulator {
 
     // return a reversed integer
     public int reverseInt(int number) {
-        int arrLength = 1;
-        int forward = 0;
-        int reversed = 0;
-        int counter = 0;
+        int multiplier = 1;
+        int reversedInt = 0;
 
-        while(forward != number) {
-            arrLength *= 10;
-            counter++;
-            forward = number % arrLength;
+        while(number % multiplier != number) {
+            multiplier *= 10;
         }
 
-        while(counter > 0) {
-            arrLength /= 10;
-            reversed += forward % 10 * arrLength;
-            forward /= 10;
-            counter--;
+        while(number % multiplier != 0) {
+            multiplier /= 10;
+            reversedInt += number % 10 * multiplier;
+            number /= 10;
         }
-        return reversed;
+        return reversedInt;
     }
 
     public static void main(String[] args) {
+
+        Manipulator manipulator = new Manipulator();
+        System.out.println("In goes 1738");
+        System.out.print("Out comes ");
+        System.out.println(manipulator.reverseInt(1738));
     }
 }

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1dbf669-acb3-4272-9b6e-2e974bcb82e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/Manipulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/TestManipulator.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Manipulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manipulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestManipulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestManipulator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +52,8 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -67,18 +68,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="32" />
+          <entry key="java" value="217" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="32" />
+          <entry key="JAVA" value="217" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestManipulator.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Manipulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="270">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -135,8 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -154,13 +153,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541971878052" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541972896957" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -189,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestManipulator.flipInt">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Manipulator" />
       <module name="Manipulator" />
@@ -226,9 +227,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestManipulator.flipInt" />
         <item itemvalue="JUnit.TestManipulator.getInt" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -246,15 +247,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestActual_flipInt - 2018.11.11 at 14h 03m 32s.xml">
-      <configuration name="TestActual.flipInt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestActual_flipInt - 2018.11.11 at 14h 04m 07s.xml">
-      <configuration name="TestActual.flipInt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestActual_flipInt - 2018.11.11 at 14h 04m 22s.xml">
-      <configuration name="TestActual.flipInt" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestActual_flipInt - 2018.11.11 at 14h 04m 42s.xml">
       <configuration name="TestActual.flipInt" configurationId="JUnit" />
     </history-entry>
@@ -276,11 +268,21 @@
     <history-entry file="TestManipulator_flipInt - 2018.11.11 at 15h 31m 28s.xml">
       <configuration name="TestManipulator.flipInt" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestManipulator_flipInt - 2018.11.11 at 15h 35m 45s.xml">
+      <configuration name="TestManipulator.flipInt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestManipulator_getInt - 2018.11.11 at 15h 43m 00s.xml">
+      <configuration name="TestManipulator.getInt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestManipulator_flipInt - 2018.11.11 at 15h 43m 08s.xml">
+      <configuration name="TestManipulator.flipInt" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -290,7 +292,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290653" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -323,8 +325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Manipulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="270">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
