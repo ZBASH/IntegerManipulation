@@ -22,8 +22,10 @@ public class Manipulator {
     public static void main(String[] args) {
 
         Manipulator manipulator = new Manipulator();
-        System.out.println("In goes 1738");
-        System.out.print("Out comes ");
-        System.out.println(manipulator.reverseInt(1738));
+        int actual = 1738;
+        System.out.print("In goes:     ");
+        System.out.println(actual);
+        System.out.print("Out comes:   ");
+        System.out.println(manipulator.reverseInt(actual));
     }
 }
